@@ -17,5 +17,3 @@ function onSuccess(acceleration) {
 function onError() {
     alert('onError!');
 }
-
-navigator.accelerometer.getCurrentAcceleration(onSuccess, onError);
